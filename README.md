@@ -2,7 +2,7 @@
 
 IP-Tracker is use to track ip address. IP-Tracker is developed for linux and android terminal like Termux and GNURoot Debian. you can retrieve any ip address information using IP-Tracer. IP-Tracer use ip-api to track ip address.
 
-# How to install IP-Tracker ?
+# How to install IP-Tracker ? (1)
 
 * `apt update`
 
@@ -15,6 +15,16 @@ IP-Tracker is use to track ip address. IP-Tracker is developed for linux and and
 * `chmod +x install`
 
 * `sh install` or `./install`
+
+
+## use the method below if the first one fails ##
+
+
+# How to Install IP-Tracker ? (2)
+
+* `sh ip-tracer start`
+
+
 
 <br><br>
 
