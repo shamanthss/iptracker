@@ -16,11 +16,12 @@ IP-Tracker is use to track ip address. IP-Tracker is developed for linux and and
 
 * `sh install` or `./install`
 
-
+<br> <br>
 
 
 # USE THE METHOD BELOW IF (1) IS NOT WORKING #
 
+<br><br>
 
 
 
