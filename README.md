@@ -17,7 +17,11 @@ IP-Tracker is use to track ip address. IP-Tracker is developed for linux and and
 * `sh install` or `./install`
 
 
-## use the method below if the first one fails ##
+
+
+# USE THE METHOD BELOW IF (1) IS NOT WORKING #
+
+
 
 
 # How to Install IP-Tracker ? (2)
