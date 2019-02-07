@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Tool Name :- IP-Tracer
-# Author :- Shamanth Samadesh
+# Author :- Shamanth Samadeshi
 # Date :- 08/02/2019
 
 case "$1" in
