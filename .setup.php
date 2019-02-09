@@ -5,17 +5,17 @@ class set {
     global $system;
     // removing old files
     if ($system=="termux") {
-      system("rm -rf /data/data/com.termux/files/usr/share/IP-Tracer");
+      system("rm -rf /data/data/com.termux/files/usr/share/iptracker");
       system("rm -rf /data/data/com.termux/files/usr/bin/ip-tracer");
       system("rm -rf /data/data/com.termux/files/usr/bin/trace");
     } elseif ($system=="ubuntu") {
       system("sudo rm -rf /usr/bin/ip-tracer");
       system("sudo rm -rf /usr/bin/trace");
-      system("sudo rm -rf /usr/share/IP-Tracer");
+      system("sudo rm -rf /usr/share/iptracker");
     } else {
       system("rm -rf /usr/bin/ip-tracer");
       system("rm -rf /usr/bin/trace");
-      system("rm -rf /usr/share/IP-Tracer");
+      system("rm -rf /usr/share/iptracker");
     }
     
     // adding bin file
@@ -38,26 +38,26 @@ class set {
 
     // copy files from IP-Tracer to .IP-Tracer directory.
     if ($system=="termux") {
-      system("mkdir /data/data/com.termux/files/usr/share/IP-Tracer");
+      system("mkdir /data/data/com.termux/files/usr/share/iptracker");
       system("chmod +x * *.* .*.*");
-      system("mv -v * *.* .*.* /data/data/com.termux/files/usr/share/IP-Tracer/");
+      system("mv -v * *.* .*.* /data/data/com.termux/files/usr/share/iptracker/");
     } elseif ($system=="ubuntu") {
-      system("sudo mkdir /usr/share/IP-Tracer/");
+      system("sudo mkdir /usr/share/iptracker/");
       system("sudo chmod +x * *.* .*.*");
-      system("sudo mv -v * *.* .*.* /usr/share/IP-Tracer/");
+      system("sudo mv -v * *.* .*.* /usr/share/iptracker/");
     } else {
-      system("mkdir /usr/share/IP-Tracer");
+      system("mkdir /usr/share/iptracker");
       system("chmod +x * *.* .*.*");
-      system("mv -v * *.* .*.* /usr/share/IP-Tracer/");
+      system("mv -v * *.* .*.* /usr/share/iptracker/");
     }
     
     // removing IP-Tracer directory
     if ($system=="termux") {
-      system("cd .. && rm -rf IP-Tracer");
+      system("cd .. && rm -rf iptracker");
     } elseif ($system=="ubuntu") {
-      system("cd .. && sudo rm -rf IP-Tracer");
+      system("cd .. && sudo rm -rf iptracker");
     } else {
-      system("cd .. && rm -rf IP-Tracer");
+      system("cd .. && rm -rf iptracker");
     }
   }
   function logo() {
