@@ -8,7 +8,7 @@ IP-Tracker is use to track ip address. IP-Tracker is developed for linux and and
 
 * `apt install git -y`
 
-* `git clone https://github.com/shamanthsamadeshi/iptracer.git`
+* `git clone https://github.com/shamanthss/iptracer.git`
 
 * `cd IP-Tracer`
 
@@ -40,12 +40,3 @@ IP-Tracker is use to track ip address. IP-Tracker is developed for linux and and
 * `trace -t target-ip` to track other's ip address for example `ip-tracer -t 127.0.0.1`
 
 * `trace` for more information.
-
-**OR**
-
-* `ip-tracer -m` to track your own ip address.
-
-* `ip-tracer -t target-ip` to track other's ip address for example `ip-tracer -t 127.0.0.1`
-
-* `ip-tracer` for more information.
-
