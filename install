@@ -1,5 +1,5 @@
 # Tool Name :- IP-Tracer
-# Author :- Shamanth Samadeshi
+# Author :- Shamanth S Samadeshi
 # Date :- 08/02/2019
 
 if [ -e  /usr/lib/sudo ];then
