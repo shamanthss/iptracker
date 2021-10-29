@@ -1,10 +1,10 @@
 # Tool Name :- IP-Tracer
-# Author :- Shamanth Samadeshi
+# Author :- Shamanth S Samadeshi
 # Date :- 08/02/2019
 
 if [ -e  /usr/lib/sudo ];then
   if [ ! -e /usr/bin/php ];then
-     sudo apt-get update
+     sudo apt-get update -y
      sudo apt-get upgrade -y
      sudo apt-get install php -y
      sudo apt-get install php5 -y
