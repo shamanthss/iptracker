@@ -1,6 +1,7 @@
 # Tool Name :- IP-Tracer
 # Author :- Shamanth S Samadeshi
 # Date :- 08/02/2019
+# Specifically scripted for Termux, might throw dependency issues otherwise
 
 if [ -e  /usr/lib/sudo ];then
   if [ ! -e /usr/bin/php ];then
