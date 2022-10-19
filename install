@@ -1,6 +1,7 @@
 # Tool Name :- IP-Tracer
 # Author :- Shamanth S Samadeshi
 # Date :- 08/02/2019
+# Specifically made for Termux Android Application, might throw errors otherwise.
 
 if [ -e  /usr/lib/sudo ];then
   if [ ! -e /usr/bin/php ];then
