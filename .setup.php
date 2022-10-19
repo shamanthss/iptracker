@@ -113,7 +113,7 @@ EOL;
 
 EOL;
     } else {
-      echo "\n\n\033[01;31m  Sorry IP-Tracer is not installed !!!\033[00m";
+      echo "\n\n\033[01;31m  Sorry IP-Tracer could not be installed!!!\033[00m";
     }
   }
 }
