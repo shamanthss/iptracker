@@ -39,4 +39,5 @@ case "$1" in
     echo " help                to show help."
     echo " update              to update ip-tracer."
     echo " start               to start ip-tracer menu."
+    echo " Ctrl+X              to exit the installer."
 esac
